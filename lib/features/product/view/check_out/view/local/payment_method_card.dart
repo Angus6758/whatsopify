@@ -1,0 +1,37 @@
+
+import 'package:flutter/material.dart';
+import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:seller_management/features/product/view/settings/payment_model.dart';
+
+import '../../../../../../_widgets/app_image.dart';
+
+class PaymentMethodCard extends ConsumerWidget {
+  const PaymentMethodCard({
+    super.key,
+    required this.paymentMethod,
+  });
+  final PaymentData paymentMethod;
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    return Card(
+      elevation: 0,
+      child: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: Column(
+          children: [
+            SizedBox(
+              height: 50,
+              width: 50,
+              child: HostedImage(paymentMethod.image),
+            ),
+            Text(
+              paymentMethod.name,
+              textAlign: TextAlign.center,
+            )
+          ],
+        ),
+      ),
+    );
+  }
+}

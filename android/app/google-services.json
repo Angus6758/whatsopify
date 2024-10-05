@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "592796106955",
+    "firebase_url": "https://whatsopify-default-rtdb.firebaseio.com",
+    "project_id": "whatsopify",
+    "storage_bucket": "whatsopify.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592796106955:android:c84b7f68c7198e8c321b4e",
+        "android_client_info": {
+          "package_name": "com.whatsopify.adrightly"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCelk8hdnTYayFQXgL9wbrsywX-R-w0_VY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

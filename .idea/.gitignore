@@ -1,0 +1,117 @@
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# Ignore build artifacts
+build/
+.dart_tool/
+*.apk
+*.dill
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Visual Studio Code related
+.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+
+# Android related
+**/android/**/gradle-wrapper.jar
+**/android/.gradle
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+
+# iOS/XCode related
+**/ios/**/*.mode1v3
+**/ios/**/*.mode2v3
+**/ios/**/*.moved-aside
+**/ios/**/*.pbxuser
+**/ios/**/*.perspectivev3
+**/ios/**/*sync/
+**/ios/**/.sconsign.dblite
+**/ios/**/.tags*
+**/ios/**/.vagrant/
+**/ios/**/DerivedData/
+**/ios/**/Icon?
+**/ios/**/Pods/
+**/ios/**/.symlinks/
+**/ios/**/profile
+**/ios/**/xcuserdata
+**/ios/.generated/
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/app.flx
+**/ios/Flutter/app.zip
+**/ios/Flutter/flutter_assets/
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+# Exceptions to above rules.
+!**/ios/**/default.mode1v3
+!**/ios/**/default.mode2v3
+!**/ios/**/default.pbxuser
+!**/ios/**/default.perspectivev3
+!/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+
+# Ignore large files
+cartuser_seller_app-source-v1.0.0.zip
+custom_lint.log
+build/app/intermediates/assets/debug/flutter_assets/kernel_blob.bin
+build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/kernel_blob.bin.jar
+build/app/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libflutter.so
+build/app/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libVkLayer_khronos_validation.so
+build/app/outputs/flutter-apk/app-debug.apk
+build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/kernel_blob.bin.jar
+build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/keSLZUz8lz1uEF6R0D+P7TnM8bE=
+build/app/outputs/apk/debug/app-debug.apk
+
+# Ignore build artifacts
+/build/
+/app/build/
+/*.apk
+/*.aab
+/*.dill
+/*.so
+/*.jar
+/*.zip
+/*.tar.gz
+/*.tgz
+/*.tmp
+
+# Android Studio specific files
+/.idea/
+/*.iml
+
+# Gradle files
+.gradle/
+gradle-wrapper.jar
+gradle-wrapper.properties
+local.properties
+
+# Flutter specific (if applicable)
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+
+# OS generated files
+.DS_Store
+Thumbs.db
